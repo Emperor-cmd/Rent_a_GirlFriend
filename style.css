@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(255,5,5,1) 22%, rgba(255,115,243,1) 65%);
+    animation: gradientBG 10s ease infinite;
+    color: #fff;
+}
+
+@keyframes gradientBG {
+    0% { background: linear-gradient(90deg, rgba(255,5,5,1) 22%, rgba(255,115,243,1) 65%); }
+    50% { background: linear-gradient(90deg, rgba(255,115,243,1) 22%, rgba(255,5,5,1) 65%); }
+    100% { background: linear-gradient(90deg, rgba(255,5,5,1) 22%, rgba(255,115,243,1) 65%); }
+}
+
+/* Header & Navigation */
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1em 2em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 10em 2em;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.btn-start {
+    background: #ff073a;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8em 2em;
+    border-radius: 50px;
+    font-size: 1em;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.btn-start:hover {
+    transform: scale(1.1);
+    background: #ff55a6;
+}
+
+/* Section Styles */
+section {
+    padding: 5em 2em;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2em;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
