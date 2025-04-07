@@ -6,5 +6,6 @@
 
 ## 🔐 Contract Details
 
-- **Contract Address:** `0x0604532a4582bec253C5FB173e5B0E2663Dac1a3`  
+- **Contract Address:** `0xAc0ae0F395278bE4e6F9b7C5aE4895F8212a6E22`  
 - **Network:** Edu Chain
+- **Contract Address**: [View on Explorer](https://edu-chain-testnet.blockscout.com/address/0xAc0ae0F395278bE4e6F9b7C5aE4895F8212a6E22)
